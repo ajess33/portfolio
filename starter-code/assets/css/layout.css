@@ -202,7 +202,6 @@
 
 #main > section.dark {
   color: #dfdfdf;
-  /* color: rgba(255, 255, 255, 0.75); */
 }
 
 #main > section.dark h2,
@@ -223,7 +222,6 @@
   color: #dfdfdf;
   letter-spacing: 1.2px;
   border-color: inherit;
-  font-weight: bold;
 }
 
 #main > section.dark a:hover {
