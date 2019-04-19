@@ -1,0 +1,7 @@
+/* .image img:hover {
+  transform: scale(1.1);
+} */
+
+.row .item:hover {
+  transform: scale(1.1);
+}
