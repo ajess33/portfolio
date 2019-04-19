@@ -1,5 +1,9 @@
 /* Sections/Article */
 
+.header-small {
+  text-decoration: underline;
+}
+
 .alt {
   max-width: 1000px;
   margin: 0 auto;
