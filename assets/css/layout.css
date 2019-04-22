@@ -32,7 +32,7 @@
   flex-grow: 1;
   /* background-color: #fff; */
   background: #838383;
-  margin-top: 220px;
+  margin-top: 280px;
 }
 
 #header .bottom {
@@ -351,12 +351,13 @@
 
   #nav ul li a span {
     padding-right: 2.25em;
+    line-height: 2rem;
   }
 
   #nav ul li a span:before {
     left: 100%;
     margin-left: -1.25em;
-    line-height: 2.25em;
+    line-height: 2.5em;
   }
 
   /* Footer */
