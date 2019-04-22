@@ -239,12 +239,19 @@
 
 #main > section.one {
   /* background-color: #fff; */
-  background-color: #1c1c1c;
   height: 100vh;
   display: flex;
   align-items: center;
 
-  background-image: url('https://images.unsplash.com/photo-1546578284-f415d2b054c7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80');
+  /* background-image: url('https://images.unsplash.com/photo-1546578284-f415d2b054c7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80'); */
+}
+
+video {
+  position: fixed;
+  min-height: 100%;
+  min-width: 100%;
+  z-index: -1;
+  padding: 0;
 }
 
 #main > section.two {
