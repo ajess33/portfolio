@@ -323,7 +323,7 @@ hr {
 }
 
 blockquote {
-  border-left: solid 0.5em #dfdfdf
+  border-left: solid 0.5em #dfdfdf;
   padding: 1em 0 1em 2em;
   font-style: italic;
 }
