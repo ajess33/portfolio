@@ -12,10 +12,18 @@
       name="viewport"
       content="width=device-width, initial-scale=1, user-scalable=no"
     />
+    <!-- FontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+
     <!-- favicon -->
     <link rel="shortcut icon" href="/favicon.png" type="image/x-icon" />
 
-    <!-- google font - monterrat -->
+    <!-- google font - montserrat -->
     <link
       href="https://fonts.googleapis.com/css?family=Montserrat:400,800"
       rel="stylesheet"
@@ -46,22 +54,22 @@
             <ul>
               <li>
                 <a href="#top" id="top-link"
-                  ><span class="icon fa-home">Home</span></a
+                  ><span class="fas fa-home">Home</span></a
                 >
               </li>
               <li>
                 <a href="#portfolio" id="portfolio-link"
-                  ><span class="icon fa-th">Portfolio</span></a
+                  ><span class="fas fa-th">Portfolio</span></a
                 >
               </li>
               <li>
                 <a href="#about" id="about-link"
-                  ><span class="icon fa-user">About Me</span></a
+                  ><span class="fas fa-user">About Me</span></a
                 >
               </li>
               <li>
                 <a href="#contact" id="contact-link"
-                  ><span class="icon fa-envelope">Contact</span></a
+                  ><span class="fas fa-envelope">Contact</span></a
                 >
               </li>
             </ul>
@@ -72,38 +80,61 @@
           <!-- Social Icons -->
           <ul class="icons">
             <li>
-              <a href="https://twitter.com/austinjessJS" class="icon fa-twitter"
-                ><span class="label">Twitter</span></a
-              >
+              <a
+                href="https://twitter.com/austinjessJS"
+                class="fab fa-twitter"
+              ></a>
             </li>
             <li>
               <a
                 href="https://www.facebook.com/austin.jess.1"
-                class="icon fa-facebook"
-                ><span class="label">Facebook</span></a
-              >
+                class="fab fa-facebook"
+              ></a>
             </li>
             <li>
-              <a href="https://github.com/ajess33" class="icon fa-github"
-                ><span class="label">Github</span></a
-              >
+              <a href="https://github.com/ajess33" class="fab fa-github"></a>
             </li>
             <li>
               <a
                 href="https://www.linkedin.com/in/austinjess/"
-                class="icon fa-linkedin-square"
-                ><span class="label">LinkedIn</span></a
-              >
+                class="fab fa-linkedin"
+              ></a>
             </li>
             <li>
-              <a href="mailto:ajess33@gmail.com" class="icon fa-envelope"
-                ><span class="label">Email</span></a
-              >
+              <a href="mailto:ajess33@gmail.com" class="fas fa-envelope"></a>
             </li>
           </ul>
         </div>
       </section>
     </div>
+
+    <!-- Tablet nav -->
+    <header id="tablet-nav">
+      <nav>
+        <ul>
+          <li>
+            <a href="#top" id="top-link"
+              ><span class="fas fa-home"> Home</span></a
+            >
+          </li>
+          <li>
+            <a href="#portfolio" id="portfolio-link"
+              ><span class="fas fa-th"> Portfolio</span></a
+            >
+          </li>
+          <li>
+            <a href="#about" id="about-link"
+              ><span class="fas fa-user"> About Me</span></a
+            >
+          </li>
+          <li>
+            <a href="#contact" id="contact-link"
+              ><span class="fas fa-envelope"> Contact</span></a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
 
     <!-- Main -->
     <div id="main">
@@ -120,7 +151,7 @@
           <footer>
             <!-- <a href="#portfolio" class="button scrolly">SEE MY WORK</a> -->
             <a class="bottom-bouncer" href="#portfolio"
-              ><i class=" icon fas fa-5x fa-angle-double-down"></i
+              ><i class="fas fa-5x fa-angle-double-down"></i
             ></a>
           </footer>
         </div>
@@ -264,10 +295,14 @@
     </div>
 
     <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.0.js"
+      integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.scrollex/0.2.1/jquery.scrollex.js"></script>
     <script src="assets/js/jquery.scrolly.min.js"></script>
-    <script src="assets/js/jquery.scrollex.min.js"></script>
-    <script src="assets/js/browser.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-browser/0.1.0/jquery.browser.min.js"></script>
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>

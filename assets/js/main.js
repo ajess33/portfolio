@@ -87,7 +87,7 @@
   // Toggle.
   $(
     '<div id="headerToggle">' +
-      '<a href="#header" class="toggle"></a>' +
+      '<a href="#header" class=""><span class="fas fa-bars menu-toggle"></span></a>' +
       '</div>'
   ).appendTo($body);
 
